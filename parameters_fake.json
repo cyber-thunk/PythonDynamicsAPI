@@ -1,0 +1,11 @@
+{
+    "authority": "https://login.microsoftonline.com/YOUR_TENANT",
+    "_authority_comment": "My tenant was something like xyz.onmicrosoft.com",
+    "client_id": "APPLICATION CLIENT ID GUID FROM AZURE OVERVIEW PAGE",
+    "scope": [ "https://XXX.crm.dynamics.com/.default" ],
+    "_scope_comment": "XXX would be something like org1223; look in power platform admin center for Environment URL",
+    "client_value": "CLIENT SECRET VALUE FROM AZURE CLIENT",
+    "_client_value_comment": "You should have documented this eariler because now it is not available in the portal",
+    "365_api_url": "https://XXX.api.crm.dynamics.com/api/data/v9.2/",
+    "365_api_url_comment": "This is the URL for the API endpoint for your environment. Instance Web API URL/Service Root URL"
+}
